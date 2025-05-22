@@ -1,0 +1,12 @@
+{
+    "name": "github_login-render",
+    "version": "1.0.0",
+    "scripts": {
+        "install-all": "npm install && cd frontend && npm install && cd ../server && npm install",
+        "build": "cd frontend && npm run build",
+        "start": "cd server && node server.js"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
